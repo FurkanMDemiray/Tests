@@ -16,6 +16,7 @@
 		DD3DF5C92B4F1D96007330A1 /* TestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DF5C82B4F1D96007330A1 /* TestsTests.swift */; };
 		DD3DF5D32B4F1D96007330A1 /* TestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DF5D22B4F1D96007330A1 /* TestsUITests.swift */; };
 		DD3DF5D52B4F1D96007330A1 /* TestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DF5D42B4F1D96007330A1 /* TestsUITestsLaunchTests.swift */; };
+		DD3DF5E22B4F1E4A007330A1 /* MathFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DF5E12B4F1E4A007330A1 /* MathFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		DD3DF5CE2B4F1D96007330A1 /* TestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3DF5D22B4F1D96007330A1 /* TestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsUITests.swift; sourceTree = "<group>"; };
 		DD3DF5D42B4F1D96007330A1 /* TestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD3DF5E12B4F1E4A007330A1 /* MathFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathFunctions.swift; sourceTree = "<group>"; };
+		DD4C16972B4F26C1003373C5 /* Tests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tests.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		DD3DF5A52B4F1D95007330A1 = {
 			isa = PBXGroup;
 			children = (
+				DD4C16972B4F26C1003373C5 /* Tests.xctestplan */,
 				DD3DF5B02B4F1D95007330A1 /* Tests */,
 				DD3DF5C72B4F1D96007330A1 /* TestsTests */,
 				DD3DF5D12B4F1D96007330A1 /* TestsUITests */,
@@ -102,6 +106,7 @@
 				DD3DF5B12B4F1D95007330A1 /* AppDelegate.swift */,
 				DD3DF5B32B4F1D95007330A1 /* SceneDelegate.swift */,
 				DD3DF5B52B4F1D95007330A1 /* ViewController.swift */,
+				DD3DF5E12B4F1E4A007330A1 /* MathFunctions.swift */,
 				DD3DF5B72B4F1D95007330A1 /* Main.storyboard */,
 				DD3DF5BA2B4F1D96007330A1 /* Assets.xcassets */,
 				DD3DF5BC2B4F1D96007330A1 /* LaunchScreen.storyboard */,
@@ -259,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD3DF5B62B4F1D95007330A1 /* ViewController.swift in Sources */,
+				DD3DF5E22B4F1E4A007330A1 /* MathFunctions.swift in Sources */,
 				DD3DF5B22B4F1D95007330A1 /* AppDelegate.swift in Sources */,
 				DD3DF5B42B4F1D95007330A1 /* SceneDelegate.swift in Sources */,
 			);
